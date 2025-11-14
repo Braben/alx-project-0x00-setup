@@ -1,17 +1,15 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
     "/": [
-      "static/chunks/node_modules_next_dist_compiled_cd3fa330._.js",
-      "static/chunks/node_modules_next_dist_shared_lib_34c95bdb._.js",
-      "static/chunks/node_modules_next_dist_client_bdba867a._.js",
+      "static/chunks/node_modules_next_dist_compiled_c629999b._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js",
+      "static/chunks/node_modules_next_dist_client_d0aa886c._.js",
       "static/chunks/node_modules_next_dist_6024eba3._.js",
-      "static/chunks/node_modules_next_image_e7eb52cb.js",
       "static/chunks/node_modules_react-dom_4411d9bd._.js",
       "static/chunks/node_modules_f13cdc1a._.js",
-      "static/chunks/[root-of-the-server]__9d46851d._.js",
-      "static/chunks/[next]_internal_font_google_816b9778._.css",
+      "static/chunks/[root-of-the-server]__f5f3eefe._.js",
       "static/chunks/pages_index_2da965e7._.js",
-      "static/chunks/turbopack-pages_index_d7c2b19e._.js"
+      "static/chunks/turbopack-pages_index_a65a8db6._.js"
     ],
     "/_app": [
       "static/chunks/node_modules_next_dist_compiled_c629999b._.js",

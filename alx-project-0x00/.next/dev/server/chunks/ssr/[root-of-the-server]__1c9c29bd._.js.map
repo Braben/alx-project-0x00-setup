@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/All%20Project/ALX/alx-project-0x00-setup/alx-project-0x00/pages/index.tsx"],"sourcesContent":["import React from \"react\";\n\nconst Home: React.FC = () => {\n  return (\n    <main className=\"flex flex-col h-screen justify-center items-center text-4xl font-semibold\">\n      <h1>Airbnb Application Clone system</h1>\n      <button className=\" border px-3 py-1 text-lg mt-3  bg-blue-500 text-white rounded-full\">\n        Get Started\n      </button>\n    </main>\n  );\n};\n\nexport default Home;\n"],"names":[],"mappings":";;;;;;AAEA,MAAM,OAAiB;IACrB,qBACE,qKAAC;QAAK,WAAU;;0BACd,qKAAC;0BAAG;;;;;;0BACJ,qKAAC;gBAAO,WAAU;0BAAsE;;;;;;;;;;;;AAK9F;uCAEe","debugId":null}}]
+}
