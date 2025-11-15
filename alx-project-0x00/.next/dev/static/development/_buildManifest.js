@@ -2,6 +2,15 @@ self.__BUILD_MANIFEST = {
   "/": [
     "static/chunks/pages/index.js"
   ],
+  "/_error": [
+    "static/chunks/pages/_error.js"
+  ],
+  "/about": [
+    "static/chunks/pages/about.js"
+  ],
+  "/landing": [
+    "static/chunks/pages/landing.js"
+  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],
@@ -11,6 +20,8 @@ self.__BUILD_MANIFEST = {
     "/",
     "/_app",
     "/_error",
-    "/api/hello"
+    "/about",
+    "/api/hello",
+    "/landing"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

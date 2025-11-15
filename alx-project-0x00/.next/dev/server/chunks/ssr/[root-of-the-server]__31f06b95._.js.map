@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/All%20Project/ALX/alx-project-0x00-setup/alx-project-0x00/pages/about.tsx"],"sourcesContent":["const About: React.FC = () => {\r\n  return (\r\n    <div>\r\n      <h1 className=\" text-xl font-extralight\">About Page</h1>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default About;\r\n"],"names":[],"mappings":";;;;;;AAAA,MAAM,QAAkB;IACtB,qBACE,qKAAC;kBACC,cAAA,qKAAC;YAAG,WAAU;sBAA2B;;;;;;;;;;;AAG/C;uCAEe","debugId":null}}]
+}
