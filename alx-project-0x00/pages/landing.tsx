@@ -10,6 +10,7 @@ const Landing: React.FC<ButtonProps> = () => {
       <Button title="Small" sizes="small" shapes="rounded-sm" />
       <Button title="medium" sizes="medium" shapes="rounded-md" />
       <Button title="large" sizes="large" shapes="rounded-lg" />
+      <Button title="large" sizes="large" shapes="rounded-full" />
       {/* <Button title=" a button" /> */}
     </div>
   );
