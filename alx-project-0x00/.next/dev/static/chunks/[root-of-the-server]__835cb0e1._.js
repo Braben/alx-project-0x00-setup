@@ -521,36 +521,38 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/compiler-runtime.js [client] (ecmascript)");
 ;
 ;
-const Pill = ()=>{
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "ac6c1dbccbdf7b18e6298562609494bbe841034ec35b546fbbf03ac719953f09") {
-        for(let $i = 0; $i < 2; $i += 1){
+const Pill = (t0)=>{
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(3);
+    if ($[0] !== "1f736520d098add658119c2a36a27e9d60e701cb7b89ea2c9074af48ff8ca638") {
+        for(let $i = 0; $i < 3; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "ac6c1dbccbdf7b18e6298562609494bbe841034ec35b546fbbf03ac719953f09";
+        $[0] = "1f736520d098add658119c2a36a27e9d60e701cb7b89ea2c9074af48ff8ca638";
     }
-    let t0;
-    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
-        t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    const { title } = t0;
+    let t1;
+    if ($[1] !== title) {
+        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: " flex justify-center  items-center bg-[#F9F9F9] px-3 w-auto h-[27px] rounded-full",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: " text-sm ",
-                children: "Title"
+                children: title
             }, void 0, false, {
                 fileName: "[project]/components/Pill.tsx",
-                lineNumber: 12,
+                lineNumber: 16,
                 columnNumber: 109
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/components/Pill.tsx",
-            lineNumber: 12,
+            lineNumber: 16,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
-        $[1] = t0;
+        $[1] = title;
+        $[2] = t1;
     } else {
-        t0 = $[1];
+        t1 = $[2];
     }
-    return t0;
+    return t1;
 };
 _c = Pill;
 const __TURBOPACK__default__export__ = Pill;
@@ -581,11 +583,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Pill$2e$tsx__$
 ;
 const Card = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(10);
-    if ($[0] !== "c990c5a0fe92652fd872aa71407f4223b0395ae9003fa8ada299f266d78677b4") {
+    if ($[0] !== "81e3c4a457b24c94c82e62526db44683dcc14b5bcd9902829db06c9b6f2604aa") {
         for(let $i = 0; $i < 10; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "c990c5a0fe92652fd872aa71407f4223b0395ae9003fa8ada299f266d78677b4";
+        $[0] = "81e3c4a457b24c94c82e62526db44683dcc14b5bcd9902829db06c9b6f2604aa";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -629,6 +631,13 @@ const Card = ()=>{
                     fileName: "[project]/components/Card.tsx",
                     lineNumber: 24,
                     columnNumber: 102
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Pill$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                    title: "Urgent Reschedule"
+                }, void 0, false, {
+                    fileName: "[project]/components/Card.tsx",
+                    lineNumber: 24,
+                    columnNumber: 134
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
