@@ -11,22 +11,24 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$run
 const sizeClasses = {
     small: "px-2 py-1 text-sm",
     medium: "px-3 py-2 text-base",
-    large: "px-5 py-3 text-lg"
+    large: "px-5 py-3 text-lg",
+    styles: "border bg-blue-500 text-white mt-3"
 };
 const shapeClasses = {
     "rounded-sm": "rounded-sm",
     "rounded-md": "rounded-md",
+    "rounded-lg": "rounded-lg",
     "rounded-full": "rounded-full"
 };
-const Button = ({ title, sizes = "medium", shapes = "rounded-md" })=>{
+const Button = ({ title, sizes = "medium", shapes = "rounded-md", styles = "border bg-blue-500 text-white mt-3" })=>{
     const sizeClass = sizeClasses[sizes];
     const shapeClass = shapeClasses[shapes];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
-        className: `border bg-blue-500 text-white mt-3 ${sizeClass} ${shapeClass}`,
+        className: `${styles} ${sizeClass} ${shapeClass}`,
         children: title
     }, void 0, false, {
         fileName: "[project]/components/Button.tsx",
-        lineNumber: 23,
+        lineNumber: 26,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -490,10 +492,19 @@ const Landing = ()=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Button$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                 title: "large",
                 sizes: "large",
-                shapes: "rounded-full"
+                shapes: "rounded-lg"
             }, void 0, false, {
                 fileName: "[project]/pages/landing.tsx",
                 lineNumber: 12,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Button$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                title: "large",
+                sizes: "large",
+                shapes: "rounded-full"
+            }, void 0, false, {
+                fileName: "[project]/pages/landing.tsx",
+                lineNumber: 13,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]

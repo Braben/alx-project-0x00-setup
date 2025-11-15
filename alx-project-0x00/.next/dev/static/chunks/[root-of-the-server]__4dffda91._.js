@@ -476,44 +476,47 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$com
 const sizeClasses = {
     small: "px-2 py-1 text-sm",
     medium: "px-3 py-2 text-base",
-    large: "px-5 py-3 text-lg"
+    large: "px-5 py-3 text-lg",
+    styles: "border bg-blue-500 text-white mt-3"
 };
 const shapeClasses = {
     "rounded-sm": "rounded-sm",
     "rounded-md": "rounded-md",
+    "rounded-lg": "rounded-lg",
     "rounded-full": "rounded-full"
 };
 const Button = (t0)=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(4);
-    if ($[0] !== "346ccd8cc6ba859b76a0500767432a522987966dc88bb429ffe71bb0a85c9518") {
+    if ($[0] !== "00a5baa221ca1b8cc17337d12ae0e81490618278b49cdc2dcc4699365cfa671a") {
         for(let $i = 0; $i < 4; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "346ccd8cc6ba859b76a0500767432a522987966dc88bb429ffe71bb0a85c9518";
+        $[0] = "00a5baa221ca1b8cc17337d12ae0e81490618278b49cdc2dcc4699365cfa671a";
     }
-    const { title, sizes: t1, shapes: t2 } = t0;
+    const { title, sizes: t1, shapes: t2, styles: t3 } = t0;
     const sizes = t1 === undefined ? "medium" : t1;
     const shapes = t2 === undefined ? "rounded-md" : t2;
+    const styles = t3 === undefined ? "border bg-blue-500 text-white mt-3" : t3;
     const sizeClass = sizeClasses[sizes];
     const shapeClass = shapeClasses[shapes];
-    const t3 = `border bg-blue-500 text-white mt-3 ${sizeClass} ${shapeClass}`;
-    let t4;
-    if ($[1] !== t3 || $[2] !== title) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-            className: t3,
+    const t4 = `${styles} ${sizeClass} ${shapeClass}`;
+    let t5;
+    if ($[1] !== t4 || $[2] !== title) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+            className: t4,
             children: title
         }, void 0, false, {
             fileName: "[project]/components/Button.tsx",
-            lineNumber: 33,
+            lineNumber: 37,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
-        $[1] = t3;
+        $[1] = t4;
         $[2] = title;
-        $[3] = t4;
+        $[3] = t5;
     } else {
-        t4 = $[3];
+        t5 = $[3];
     }
-    return t4;
+    return t5;
 };
 _c = Button;
 const __TURBOPACK__default__export__ = Button;
@@ -1050,11 +1053,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Card$2e$tsx__$
 ;
 const Landing = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "f7d35256187a8ecd1114859e6ff22dba8fa926278016ebcd34c2125cf06e5857") {
+    if ($[0] !== "ff1f33edbcc306ccc8be6206941293d79d5cf2d600478ae35ba191c12630430b") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "f7d35256187a8ecd1114859e6ff22dba8fa926278016ebcd34c2125cf06e5857";
+        $[0] = "ff1f33edbcc306ccc8be6206941293d79d5cf2d600478ae35ba191c12630430b";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -1094,11 +1097,20 @@ const Landing = ()=>{
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Button$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                     title: "large",
                     sizes: "large",
-                    shapes: "rounded-full"
+                    shapes: "rounded-lg"
                 }, void 0, false, {
                     fileName: "[project]/pages/landing.tsx",
                     lineNumber: 15,
                     columnNumber: 199
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Button$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                    title: "large",
+                    sizes: "large",
+                    shapes: "rounded-full"
+                }, void 0, false, {
+                    fileName: "[project]/pages/landing.tsx",
+                    lineNumber: 15,
+                    columnNumber: 257
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {

@@ -4,6 +4,7 @@ const sizeClasses = {
   small: "px-2 py-1 text-sm",
   medium: "px-3 py-2 text-base",
   large: "px-5 py-3 text-lg",
+  styles: "border bg-blue-500 text-white mt-3",
 };
 
 const shapeClasses = {
@@ -17,15 +18,12 @@ const Button: React.FC<ButtonProps> = ({
   title,
   sizes = "medium",
   shapes = "rounded-md",
+  styles = "border bg-blue-500 text-white mt-3",
 }) => {
   const sizeClass = sizeClasses[sizes];
   const shapeClass = shapeClasses[shapes];
   return (
-    <button
-      className={`border bg-blue-500 text-white mt-3 ${sizeClass} ${shapeClass}`}
-    >
-      {title}
-    </button>
+    <button className={`${styles} ${sizeClass} ${shapeClass}`}>{title}</button>
   );
 };
 
